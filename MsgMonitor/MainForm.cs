@@ -296,7 +296,7 @@ namespace MsgMoniter
             // 
             // ColumnValue
             // 
-            this.ColumnValue.Text = "1";
+            this.ColumnValue.Text = "Numerical value";
             this.ColumnValue.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.ColumnValue.Width = 150;
             // 
@@ -316,17 +316,17 @@ namespace MsgMoniter
             // 
             // 添加项目ToolStripMenuItem
             // 
-            this.添加项目ToolStripMenuItem.Name = "添加项目ToolStripMenuItem";
+            this.添加项目ToolStripMenuItem.Name = "AdditemToolStripMenuItem";
             this.添加项目ToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
-            this.添加项目ToolStripMenuItem.Text = "添加项目";
+            this.添加项目ToolStripMenuItem.Text = "Additem";
             this.添加项目ToolStripMenuItem.Click += new System.EventHandler(this.添加项目ToolStripMenuItem_Click);
             // 
             // 删除项目ToolStripMenuItem
             // 
-            this.删除项目ToolStripMenuItem.Name = "删除项目ToolStripMenuItem";
+            this.删除项目ToolStripMenuItem.Name = "DeleteitemToolStripMenuItem";
             this.删除项目ToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.Delete;
             this.删除项目ToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
-            this.删除项目ToolStripMenuItem.Text = "删除项目";
+            this.删除项目ToolStripMenuItem.Text = "Delete";
             this.删除项目ToolStripMenuItem.Click += new System.EventHandler(this.删除项目ToolStripMenuItem_Click);
             // 
             // 复制ToolStripMenuItem
@@ -334,24 +334,24 @@ namespace MsgMoniter
             this.复制ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.地址ToolStripMenuItem,
             this.数值ToolStripMenuItem});
-            this.复制ToolStripMenuItem.Name = "复制ToolStripMenuItem";
+            this.复制ToolStripMenuItem.Name = "copyToolStripMenuItem";
             this.复制ToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
-            this.复制ToolStripMenuItem.Text = "复制信息";
+            this.复制ToolStripMenuItem.Text = "Copy";
             // 
             // 地址ToolStripMenuItem
             // 
-            this.地址ToolStripMenuItem.Name = "地址ToolStripMenuItem";
+            this.地址ToolStripMenuItem.Name = "addressToolStripMenuItem";
             this.地址ToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
             this.地址ToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
-            this.地址ToolStripMenuItem.Text = "地址";
+            this.地址ToolStripMenuItem.Text = "address";
             this.地址ToolStripMenuItem.Click += new System.EventHandler(this.地址ToolStripMenuItem_Click);
             // 
             // 数值ToolStripMenuItem
             // 
-            this.数值ToolStripMenuItem.Name = "数值ToolStripMenuItem";
+            this.数值ToolStripMenuItem.Name = "NumericalvalueToolStripMenuItem";
             this.数值ToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.C)));
             this.数值ToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
-            this.数值ToolStripMenuItem.Text = "数值";
+            this.数值ToolStripMenuItem.Text = "Numerical value";
             this.数值ToolStripMenuItem.Click += new System.EventHandler(this.数值ToolStripMenuItem_Click);
             // 
             // 显示类型ToolStripMenuItem
@@ -359,22 +359,22 @@ namespace MsgMoniter
             this.显示类型ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.浮点数_整数ToolStripMenuItem,
             this.字符串_字节数组ToolStripMenuItem});
-            this.显示类型ToolStripMenuItem.Name = "显示类型ToolStripMenuItem";
+            this.显示类型ToolStripMenuItem.Name = "DisplaytypeToolStripMenuItem";
             this.显示类型ToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
-            this.显示类型ToolStripMenuItem.Text = "显示类型";
+            this.显示类型ToolStripMenuItem.Text = "Display type";
             // 
             // 浮点数_整数ToolStripMenuItem
             // 
-            this.浮点数_整数ToolStripMenuItem.Name = "浮点数_整数ToolStripMenuItem";
+            this.浮点数_整数ToolStripMenuItem.Name = "FloatpointintegerToolStripMenuItem";
             this.浮点数_整数ToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
-            this.浮点数_整数ToolStripMenuItem.Text = "浮点数<->整数";
+            this.浮点数_整数ToolStripMenuItem.Text = "Floating point number<->integer";
             this.浮点数_整数ToolStripMenuItem.Click += new System.EventHandler(this.浮点数_整数ToolStripMenuItem_Click);
             // 
             // 字符串_字节数组ToolStripMenuItem
             // 
-            this.字符串_字节数组ToolStripMenuItem.Name = "字符串_字节数组ToolStripMenuItem";
+            this.字符串_字节数组ToolStripMenuItem.Name = "StringbytearrayToolStripMenuItem";
             this.字符串_字节数组ToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
-            this.字符串_字节数组ToolStripMenuItem.Text = "字符串<->字节数组";
+            this.字符串_字节数组ToolStripMenuItem.Text = "String<->byte array";
             this.字符串_字节数组ToolStripMenuItem.Click += new System.EventHandler(this.字符串_字节数组ToolStripMenuItem_Click);
             // 
             // 反汇编ToolStripMenuItem
@@ -383,47 +383,47 @@ namespace MsgMoniter
             this.转到反汇编ToolStripMenuItem,
             this.浏览内存区域ToolStripMenuItem,
             this.翻译汇编代码ToolStripMenuItem});
-            this.反汇编ToolStripMenuItem.Name = "反汇编ToolStripMenuItem";
+            this.反汇编ToolStripMenuItem.Name = "DisassemblyToolStripMenuItem";
             this.反汇编ToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
-            this.反汇编ToolStripMenuItem.Text = "反汇编";
+            this.反汇编ToolStripMenuItem.Text = "Disassembly";
             // 
             // 转到反汇编ToolStripMenuItem
             // 
-            this.转到反汇编ToolStripMenuItem.Name = "转到反汇编ToolStripMenuItem";
+            this.转到反汇编ToolStripMenuItem.Name = "GotodisassemblyToolStripMenuItem";
             this.转到反汇编ToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F5;
             this.转到反汇编ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.转到反汇编ToolStripMenuItem.Text = "转到反汇编";
+            this.转到反汇编ToolStripMenuItem.Text = "Go to disassembly";
             this.转到反汇编ToolStripMenuItem.Click += new System.EventHandler(this.转到反汇编ToolStripMenuItem_Click);
             // 
             // 翻译汇编代码ToolStripMenuItem
             // 
-            this.翻译汇编代码ToolStripMenuItem.Name = "翻译汇编代码ToolStripMenuItem";
+            this.翻译汇编代码ToolStripMenuItem.Name = "TranslateassemblycodeToolStripMenuItem";
             this.翻译汇编代码ToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F7;
             this.翻译汇编代码ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.翻译汇编代码ToolStripMenuItem.Text = "翻译汇编代码";
+            this.翻译汇编代码ToolStripMenuItem.Text = "Translate assembly code";
             this.翻译汇编代码ToolStripMenuItem.Click += new System.EventHandler(this.翻译汇编代码ToolStripMenuItem_Click);
             // 
             // 浏览内存区域ToolStripMenuItem
             // 
-            this.浏览内存区域ToolStripMenuItem.Name = "浏览内存区域ToolStripMenuItem";
+            this.浏览内存区域ToolStripMenuItem.Name = "BrowsememoryareaToolStripMenuItem";
             this.浏览内存区域ToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F6;
             this.浏览内存区域ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.浏览内存区域ToolStripMenuItem.Text = "浏览内存区域";
+            this.浏览内存区域ToolStripMenuItem.Text = "Browse memory area";
             this.浏览内存区域ToolStripMenuItem.Click += new System.EventHandler(this.浏览内存区域ToolStripMenuItem_Click);
             // 
             // 保存到可执行文件ToolStripMenuItem
             // 
-            this.保存到可执行文件ToolStripMenuItem.Name = "保存到可执行文件ToolStripMenuItem";
+            this.保存到可执行文件ToolStripMenuItem.Name = "SavetoexecutableToolStripMenuItem";
             this.保存到可执行文件ToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.S)));
             this.保存到可执行文件ToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
-            this.保存到可执行文件ToolStripMenuItem.Text = "保存到可执行文件";
+            this.保存到可执行文件ToolStripMenuItem.Text = "Save to executable";
             this.保存到可执行文件ToolStripMenuItem.Click += new System.EventHandler(this.保存到可执行文件ToolStripMenuItem_Click);
             // 
             // 清空所有项ToolStripMenuItem
             // 
-            this.清空所有项ToolStripMenuItem.Name = "清空所有项ToolStripMenuItem";
+            this.清空所有项ToolStripMenuItem.Name = "ClearallToolStripMenuItem";
             this.清空所有项ToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
-            this.清空所有项ToolStripMenuItem.Text = "清空所有项";
+            this.清空所有项ToolStripMenuItem.Text = "Clear all";
             this.清空所有项ToolStripMenuItem.Click += new System.EventHandler(this.清空所有项ToolStripMenuItem_Click);
             // 
             // MainMenu
@@ -450,39 +450,39 @@ namespace MsgMoniter
             this.项目另存为ToolStripMenuItem,
             this.toolStripMenuItemSep1,
             this.退出ToolStripMenuItem});
-            this.文件ToolStripMenuItem.Name = "文件ToolStripMenuItem";
+            this.文件ToolStripMenuItem.Name = "documentToolStripMenuItem";
             this.文件ToolStripMenuItem.Size = new System.Drawing.Size(44, 21);
-            this.文件ToolStripMenuItem.Text = "文件";
+            this.文件ToolStripMenuItem.Text = "document";
             // 
             // 打开项目ToolStripMenuItem
             // 
-            this.打开项目ToolStripMenuItem.Name = "打开项目ToolStripMenuItem";
+            this.打开项目ToolStripMenuItem.Name = "OpenprojectToolStripMenuItem";
             this.打开项目ToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
-            this.打开项目ToolStripMenuItem.Text = "打开项目";
+            this.打开项目ToolStripMenuItem.Text = "Open project";
             this.打开项目ToolStripMenuItem.Click += new System.EventHandler(this.打开项目ToolStripMenuItem_Click);
             // 
             // 打开进程ToolStripMenuItem
             // 
-            this.打开进程ToolStripMenuItem.Name = "打开进程ToolStripMenuItem";
+            this.打开进程ToolStripMenuItem.Name = "OpenprocessToolStripMenuItem";
             this.打开进程ToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F1;
             this.打开进程ToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
-            this.打开进程ToolStripMenuItem.Text = "打开程序";
+            this.打开进程ToolStripMenuItem.Text = "Open";
             this.打开进程ToolStripMenuItem.Click += new System.EventHandler(this.打开程序ToolStripMenuItem_Click);
             // 
             // 附加进程ToolStripMenuItem
             // 
-            this.附加进程ToolStripMenuItem.Name = "附加进程ToolStripMenuItem";
+            this.附加进程ToolStripMenuItem.Name = "AdditionalprocessToolStripMenuItem";
             this.附加进程ToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F2;
             this.附加进程ToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
-            this.附加进程ToolStripMenuItem.Text = "附加进程";
+            this.附加进程ToolStripMenuItem.Text = "Additional process";
             this.附加进程ToolStripMenuItem.Click += new System.EventHandler(this.附加进程ToolStripMenuItem_Click);
             // 
             // 保存项目ToolStripMenuItem
             // 
-            this.保存项目ToolStripMenuItem.Name = "保存项目ToolStripMenuItem";
+            this.保存项目ToolStripMenuItem.Name = "SaveprojectToolStripMenuItem";
             this.保存项目ToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
             this.保存项目ToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
-            this.保存项目ToolStripMenuItem.Text = "保存项目";
+            this.保存项目ToolStripMenuItem.Text = "Save project";
             this.保存项目ToolStripMenuItem.Click += new System.EventHandler(this.保存项目ToolStripMenuItem_Click);
             // 
             // toolStripMenuItemSep1
@@ -492,9 +492,9 @@ namespace MsgMoniter
             // 
             // 退出ToolStripMenuItem
             // 
-            this.退出ToolStripMenuItem.Name = "退出ToolStripMenuItem";
+            this.退出ToolStripMenuItem.Name = "quitToolStripMenuItem";
             this.退出ToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
-            this.退出ToolStripMenuItem.Text = "退出";
+            this.退出ToolStripMenuItem.Text = "quit";
             this.退出ToolStripMenuItem.Click += new System.EventHandler(this.退出ToolStripMenuItem_Click);
             // 
             // 全局设置ToolStripMenuItem
@@ -503,45 +503,45 @@ namespace MsgMoniter
             this.仅显示主模块地址ToolStripMenuItem,
             this.显示十六进制ToolStripMenuItem,
             this.暂停拦截ToolStripMenuItem});
-            this.全局设置ToolStripMenuItem.Name = "全局设置ToolStripMenuItem";
+            this.全局设置ToolStripMenuItem.Name = "GlobalSettingsToolStripMenuItem";
             this.全局设置ToolStripMenuItem.Size = new System.Drawing.Size(68, 21);
-            this.全局设置ToolStripMenuItem.Text = "全局设置";
+            this.全局设置ToolStripMenuItem.Text = "Global Settings";
             // 
             // 仅显示主模块地址ToolStripMenuItem
             // 
             this.仅显示主模块地址ToolStripMenuItem.CheckOnClick = true;
-            this.仅显示主模块地址ToolStripMenuItem.Name = "仅显示主模块地址ToolStripMenuItem";
+            this.仅显示主模块地址ToolStripMenuItem.Name = "OnlythemainmoduleaddressisdisplayedToolStripMenuItem";
             this.仅显示主模块地址ToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
-            this.仅显示主模块地址ToolStripMenuItem.Text = "仅显示主模块地址";
+            this.仅显示主模块地址ToolStripMenuItem.Text = "Only the main module address is displayed";
             // 
             // 显示十六进制ToolStripMenuItem
             // 
             this.显示十六进制ToolStripMenuItem.CheckOnClick = true;
-            this.显示十六进制ToolStripMenuItem.Name = "显示十六进制ToolStripMenuItem";
+            this.显示十六进制ToolStripMenuItem.Name = "ShowhexadecimalToolStripMenuItem";
             this.显示十六进制ToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
-            this.显示十六进制ToolStripMenuItem.Text = "显示十六进制";
+            this.显示十六进制ToolStripMenuItem.Text = "Show hexadecimal";
             this.显示十六进制ToolStripMenuItem.Click += new System.EventHandler(this.显示十六进制ToolStripMenuItem_Click);
             // 
             // 暂停拦截ToolStripMenuItem
             // 
             this.暂停拦截ToolStripMenuItem.CheckOnClick = true;
-            this.暂停拦截ToolStripMenuItem.Name = "暂停拦截ToolStripMenuItem";
+            this.暂停拦截ToolStripMenuItem.Name = "PauseinterceptionToolStripMenuItem";
             this.暂停拦截ToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
-            this.暂停拦截ToolStripMenuItem.Text = "暂停拦截";
+            this.暂停拦截ToolStripMenuItem.Text = "Pause interception";
             // 
             // 保存写入ToolStripMenuItem
             // 
             this.保存写入ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.所有勾选的项ToolStripMenuItem});
-            this.保存写入ToolStripMenuItem.Name = "保存写入ToolStripMenuItem";
+            this.保存写入ToolStripMenuItem.Name = "SavewriteToolStripMenuItem";
             this.保存写入ToolStripMenuItem.Size = new System.Drawing.Size(68, 21);
-            this.保存写入ToolStripMenuItem.Text = "保存写入";
+            this.保存写入ToolStripMenuItem.Text = "Save write";
             // 
             // 所有勾选的项ToolStripMenuItem
             // 
-            this.所有勾选的项ToolStripMenuItem.Name = "所有勾选的项ToolStripMenuItem";
+            this.所有勾选的项ToolStripMenuItem.Name = "AllcheckedToolStripMenuItem";
             this.所有勾选的项ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
-            this.所有勾选的项ToolStripMenuItem.Text = "所有勾选的项";
+            this.所有勾选的项ToolStripMenuItem.Text = "All checked";
             this.所有勾选的项ToolStripMenuItem.Click += new System.EventHandler(this.所有勾选的项ToolStripMenuItem_Click);
             // 
             // 帮助ToolStripMenuItem
@@ -549,22 +549,22 @@ namespace MsgMoniter
             this.帮助ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.使用说明ToolStripMenuItem,
             this.关于ToolStripMenuItem});
-            this.帮助ToolStripMenuItem.Name = "帮助ToolStripMenuItem";
+            this.帮助ToolStripMenuItem.Name = "helpToolStripMenuItem";
             this.帮助ToolStripMenuItem.Size = new System.Drawing.Size(44, 21);
-            this.帮助ToolStripMenuItem.Text = "帮助";
+            this.帮助ToolStripMenuItem.Text = "help";
             // 
             // 使用说明ToolStripMenuItem
             // 
-            this.使用说明ToolStripMenuItem.Name = "使用说明ToolStripMenuItem";
+            this.使用说明ToolStripMenuItem.Name = "InstructionsforuseToolStripMenuItem";
             this.使用说明ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
-            this.使用说明ToolStripMenuItem.Text = "使用说明";
+            this.使用说明ToolStripMenuItem.Text = "Instructions for use";
             this.使用说明ToolStripMenuItem.Click += new System.EventHandler(this.使用说明ToolStripMenuItem_Click);
             // 
             // 关于ToolStripMenuItem
             // 
-            this.关于ToolStripMenuItem.Name = "关于ToolStripMenuItem";
+            this.关于ToolStripMenuItem.Name = "aboutToolStripMenuItem";
             this.关于ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
-            this.关于ToolStripMenuItem.Text = "关于";
+            this.关于ToolStripMenuItem.Text = "about";
             this.关于ToolStripMenuItem.Click += new System.EventHandler(this.关于ToolStripMenuItem_Click);
             // 
             // statusStrip1
@@ -586,7 +586,7 @@ namespace MsgMoniter
             this.toolStripStatusLabel1.IsLink = true;
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
             this.toolStripStatusLabel1.Size = new System.Drawing.Size(200, 17);
-            this.toolStripStatusLabel1.Text = "本程序由冥谷川恋制作，不要滥用哦";
+            this.toolStripStatusLabel1.Text = "This program is made by Ming Gu Chuan Lian, don't abuse it";
             this.toolStripStatusLabel1.Click += new System.EventHandler(this.toolStripStatusLabel1_Click);
             // 
             // toolStripStatusLabel2
@@ -596,14 +596,14 @@ namespace MsgMoniter
             this.toolStripStatusLabel2.LinkColor = System.Drawing.Color.Red;
             this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
             this.toolStripStatusLabel2.Size = new System.Drawing.Size(62, 17);
-            this.toolStripStatusLabel2.Text = "<无进程>";
+            this.toolStripStatusLabel2.Text = "<No process>";
             this.toolStripStatusLabel2.Click += new System.EventHandler(this.toolStripStatusLabel2_Click);
             // 
             // toolStripStatusLabel3
             // 
             this.toolStripStatusLabel3.Name = "toolStripStatusLabel3";
             this.toolStripStatusLabel3.Size = new System.Drawing.Size(56, 17);
-            this.toolStripStatusLabel3.Text = "当前进程";
+            this.toolStripStatusLabel3.Text = "Current process";
             // 
             // 项目另存为ToolStripMenuItem
             // 
@@ -611,7 +611,7 @@ namespace MsgMoniter
             this.项目另存为ToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
             | System.Windows.Forms.Keys.S)));
             this.项目另存为ToolStripMenuItem.Size = new System.Drawing.Size(214, 22);
-            this.项目另存为ToolStripMenuItem.Text = "项目另存为";
+            this.项目另存为ToolStripMenuItem.Text = "Save project as";
             this.项目另存为ToolStripMenuItem.Click += new System.EventHandler(this.项目另存为ToolStripMenuItem_Click);
             // 
             // MainForm
@@ -693,9 +693,9 @@ namespace MsgMoniter
             }
             else if (targetProcess.Id != wmInfo.Target.Id && wmInfo.Target.Id != 0)
             {
-                if (MessageBox.Show($"被拦截的内存写入的目标进程{wmInfo.Target.ProcessName}\n" +
-                    $"与当前进程{targetProcess.ProcessName}不同\n" +
-                    "你希望重新指定进程对象吗", "提问", MessageBoxButtons.YesNo, MessageBoxIcon.Question)
+                if (MessageBox.Show($"The target process of the blocked memory write{wmInfo.Target.ProcessName}\n" +
+                    $"With current process{targetProcess.ProcessName}不同\n" +
+                    "Do you wish to reassign the process object", "Ask questions", MessageBoxButtons.YesNo, MessageBoxIcon.Question)
                     == DialogResult.Yes)
                 {
                     targetProcess = wmInfo.Target;
@@ -703,7 +703,7 @@ namespace MsgMoniter
                         targetModule = targetProcess.MainModule;
                 }
             }
-            toolStripStatusLabel2.Text = targetProcess == null ? "<无进程>" : targetProcess.ProcessName;
+            toolStripStatusLabel2.Text = targetProcess == null ? "<No process>" : targetProcess.ProcessName;
             if (仅显示主模块地址ToolStripMenuItem.Checked && targetModule != null)
             {
                 int baseAddress = targetModule.BaseAddress.ToInt32();
@@ -712,7 +712,7 @@ namespace MsgMoniter
             }
             ListViewItem item = new ListViewItem();
             item.Tag = wmInfo;
-            item.Text = "<无描述>";
+            item.Text = "<No description>";
             item.SubItems.Add("0x" + wmInfo.Address.ToString("X8"));
             item.SubItems.Add(wmInfo.Type.GetDescription());
             item.SubItems.Add(wmInfo.GetFormattedValue());
@@ -818,7 +818,7 @@ namespace MsgMoniter
             {
                 if (targetModule == null)
                 {
-                    MessageBox.Show("无法获取进程模块", "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Unable to get process module", "error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
                 saveFileDialog.FileName = targetProcess.ProcessName;
@@ -844,7 +844,7 @@ namespace MsgMoniter
                         }
                         if (inVaildCount > 0)
                         {
-                            MessageBox.Show($"有{inVaildCount}项不在主模块内，未进行修改", "警告", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                            MessageBox.Show($"有{inVaildCount}Item is not in the main module，No modification", "warn", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                         }
                     }
                 }
@@ -857,7 +857,7 @@ namespace MsgMoniter
             {
                 if (targetModule == null)
                 {
-                    MessageBox.Show("无法获取进程模块", "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Unable to get process module," "error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
                 saveFileDialog.FileName = targetProcess.ProcessName;
@@ -883,7 +883,7 @@ namespace MsgMoniter
                         }
                         if (inVaildCount > 0)
                         {
-                            MessageBox.Show($"有{inVaildCount}项不在主模块内，未进行修改", "警告", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                            MessageBox.Show($"Have{inVaildCount}Item is not in the main module，No modification", "警告", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                         }
                     }
                 }
@@ -905,17 +905,17 @@ namespace MsgMoniter
 
         private void 关于ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("本程序由冥谷川恋制作，可用于拦截修改器的内存写入，并将内存修改保存到目标程序本身", "关于", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("This program is made by Ming Gu Chuan Lian，Can be used to intercept the memory write of the modifier，And save the memory modification to the target program itself", "about", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void 使用说明ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("选择[文件]菜单-[打开]你需要监视的修改器\n" +
-                "如果修改器无法正常启动可以选择[附加]修改器进程\n" +
-                "然后程序将自动记录下修改器的内存写入\n" +
-                "选择你希望永久保存到目标程序的项目右键[保存到可执行文件]\n" +
-                "并不保证对所有修改器有效，且会使得修改器使用受影响\n" +
-                "如果修改器是以管理员身份运行，本程序也需要管理员身份", "关于", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Select the [File] menu-[Open] the modifier you need to monitor\n" +
+                 "If the modifier cannot be started normally, you can select [Attach] the modifier process\n" +
+                 "Then the program will automatically record the memory write of the modifier\n" +
+                 "Select the item you want to permanently save to the target program, right-click [Save to executable file]\n" +
+                 "It is not guaranteed to be valid for all modifiers and will affect the use of modifiers\n" +
+                 "If the modifier is run as an administrator, this program also needs an administrator", "about", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void 翻译汇编代码ToolStripMenuItem_Click(object sender, EventArgs e)
@@ -1007,7 +1007,7 @@ namespace MsgMoniter
                         }
                     }
                     else
-                        MessageBox.Show("不是合法的项目文件", "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show("Not a legal project file", "error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
         }
