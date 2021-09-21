@@ -62,17 +62,17 @@
             // 
             // columnHeader1
             // 
-            this.columnHeader1.Text = "地址";
+            this.columnHeader1.Text = "address";
             this.columnHeader1.Width = 120;
             // 
             // columnHeader2
             // 
-            this.columnHeader2.Text = "字节";
+            this.columnHeader2.Text = "byte";
             this.columnHeader2.Width = 200;
             // 
             // columnHeader3
             // 
-            this.columnHeader3.Text = "汇编代码";
+            this.columnHeader3.Text = "Assembly code";
             this.columnHeader3.Width = 200;
             // 
             // AddressUpDown
@@ -98,7 +98,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(77, 12);
             this.label1.TabIndex = 2;
-            this.label1.Text = "反汇编首地址";
+            this.label1.Text = "Disassembly first address";
             // 
             // LengthUpDown
             // 
@@ -122,7 +122,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(89, 12);
             this.label2.TabIndex = 4;
-            this.label2.Text = "反汇编代码长度";
+            this.label2.Text = "Disassembly first address";
             // 
             // statusStrip1
             // 
@@ -138,8 +138,8 @@
             // toolStripStatusLabel1
             // 
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(208, 17);
-            this.toolStripStatusLabel1.Text = "按住Ctrl加滚轮可以调节反汇编首地址";
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(288, 17);
+            this.toolStripStatusLabel1.Text = "Hold down Ctrl and add the scroll wheel to adjust the disassembly first address";
             // 
             // DisasmForm
             // 
@@ -157,7 +157,7 @@
             this.MinimumSize = new System.Drawing.Size(249, 149);
             this.Name = "DisasmForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "反汇编窗口";
+            this.Text = "Disassembly window";
             this.Resize += new System.EventHandler(this.DisasmForm_Resize);
             ((System.ComponentModel.ISupportInitialize)(this.AddressUpDown)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.LengthUpDown)).EndInit();
