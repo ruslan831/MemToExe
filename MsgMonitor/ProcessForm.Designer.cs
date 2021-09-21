@@ -52,67 +52,68 @@ namespace MsgMonitor
             this.listView1.FullRowSelect = true;
             this.listView1.GridLines = true;
             this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(12, 12);
+            this.listView1.Location = new System.Drawing.Point(12, 13);
             this.listView1.MultiSelect = false;
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(422, 286);
+            this.listView1.Size = new System.Drawing.Size(422, 310);
             this.listView1.Sorting = System.Windows.Forms.SortOrder.Ascending;
             this.listView1.TabIndex = 0;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
             this.listView1.ColumnClick += new System.Windows.Forms.ColumnClickEventHandler(this.listView1_ColumnClick);
+            this.listView1.SelectedIndexChanged += new System.EventHandler(this.listView1_SelectedIndexChanged);
             this.listView1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.listView1_MouseDoubleClick);
             // 
             // columnHeader1
             // 
-            this.columnHeader1.Text = "进程Id";
+            this.columnHeader1.Text = "processId";
             this.columnHeader1.Width = 80;
             // 
             // columnHeader2
             // 
-            this.columnHeader2.Text = "进程名";
+            this.columnHeader2.Text = "Process name";
             this.columnHeader2.Width = 180;
             // 
             // columnHeader3
             // 
-            this.columnHeader3.Text = "窗口标题";
+            this.columnHeader3.Text = "Window title";
             this.columnHeader3.Width = 280;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(25, 304);
+            this.button1.Location = new System.Drawing.Point(25, 329);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(112, 24);
+            this.button1.Size = new System.Drawing.Size(112, 26);
             this.button1.TabIndex = 1;
-            this.button1.Text = "选择";
+            this.button1.Text = "select";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(163, 304);
+            this.button2.Location = new System.Drawing.Point(163, 329);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(112, 24);
+            this.button2.Size = new System.Drawing.Size(112, 26);
             this.button2.TabIndex = 2;
-            this.button2.Text = "刷新";
+            this.button2.Text = "Refresh";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.Button2_Click);
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(299, 304);
+            this.button3.Location = new System.Drawing.Point(299, 329);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(112, 24);
+            this.button3.Size = new System.Drawing.Size(112, 26);
             this.button3.TabIndex = 3;
-            this.button3.Text = "取消";
+            this.button3.Text = "Cancel";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // ProcessForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(443, 337);
+            this.ClientSize = new System.Drawing.Size(443, 365);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -121,7 +122,7 @@ namespace MsgMonitor
             this.MaximizeBox = false;
             this.Name = "ProcessForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "选择进程";
+            this.Text = "Select process";
             this.Load += new System.EventHandler(this.ProcessForm_Load);
             this.ResumeLayout(false);
 

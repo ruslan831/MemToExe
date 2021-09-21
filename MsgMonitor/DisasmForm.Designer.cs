@@ -52,10 +52,10 @@
             this.DisAsmListView.FullRowSelect = true;
             this.DisAsmListView.GridLines = true;
             this.DisAsmListView.HideSelection = false;
-            this.DisAsmListView.Location = new System.Drawing.Point(9, 37);
+            this.DisAsmListView.Location = new System.Drawing.Point(9, 40);
             this.DisAsmListView.Margin = new System.Windows.Forms.Padding(2);
             this.DisAsmListView.Name = "DisAsmListView";
-            this.DisAsmListView.Size = new System.Drawing.Size(564, 300);
+            this.DisAsmListView.Size = new System.Drawing.Size(564, 325);
             this.DisAsmListView.TabIndex = 0;
             this.DisAsmListView.UseCompatibleStateImageBehavior = false;
             this.DisAsmListView.View = System.Windows.Forms.View.Details;
@@ -78,7 +78,7 @@
             // AddressUpDown
             // 
             this.AddressUpDown.Hexadecimal = true;
-            this.AddressUpDown.Location = new System.Drawing.Point(104, 10);
+            this.AddressUpDown.Location = new System.Drawing.Point(104, 11);
             this.AddressUpDown.Margin = new System.Windows.Forms.Padding(2);
             this.AddressUpDown.Maximum = new decimal(new int[] {
             -1,
@@ -86,23 +86,23 @@
             0,
             0});
             this.AddressUpDown.Name = "AddressUpDown";
-            this.AddressUpDown.Size = new System.Drawing.Size(112, 21);
+            this.AddressUpDown.Size = new System.Drawing.Size(112, 20);
             this.AddressUpDown.TabIndex = 1;
             this.AddressUpDown.ValueChanged += new System.EventHandler(this.AddressUpDown_ValueChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(9, 14);
+            this.label1.Location = new System.Drawing.Point(92, -4);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(77, 12);
+            this.label1.Size = new System.Drawing.Size(124, 13);
             this.label1.TabIndex = 2;
             this.label1.Text = "Disassembly first address";
             // 
             // LengthUpDown
             // 
-            this.LengthUpDown.Location = new System.Drawing.Point(313, 10);
+            this.LengthUpDown.Location = new System.Drawing.Point(313, 11);
             this.LengthUpDown.Margin = new System.Windows.Forms.Padding(2);
             this.LengthUpDown.Maximum = new decimal(new int[] {
             800,
@@ -110,17 +110,17 @@
             0,
             0});
             this.LengthUpDown.Name = "LengthUpDown";
-            this.LengthUpDown.Size = new System.Drawing.Size(112, 21);
+            this.LengthUpDown.Size = new System.Drawing.Size(112, 20);
             this.LengthUpDown.TabIndex = 3;
             this.LengthUpDown.ValueChanged += new System.EventHandler(this.LengthUpDown_ValueChanged);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(220, 14);
+            this.label2.Location = new System.Drawing.Point(301, -4);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(89, 12);
+            this.label2.Size = new System.Drawing.Size(124, 13);
             this.label2.TabIndex = 4;
             this.label2.Text = "Disassembly first address";
             // 
@@ -128,7 +128,7 @@
             // 
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel1});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 339);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 369);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.statusStrip1.Size = new System.Drawing.Size(584, 22);
@@ -138,14 +138,14 @@
             // toolStripStatusLabel1
             // 
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(288, 17);
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(421, 17);
             this.toolStripStatusLabel1.Text = "Hold down Ctrl and add the scroll wheel to adjust the disassembly first address";
             // 
             // DisasmForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(584, 361);
+            this.ClientSize = new System.Drawing.Size(584, 391);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.LengthUpDown);
@@ -154,7 +154,7 @@
             this.Controls.Add(this.DisAsmListView);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.MinimizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(249, 149);
+            this.MinimumSize = new System.Drawing.Size(249, 158);
             this.Name = "DisasmForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Disassembly window";

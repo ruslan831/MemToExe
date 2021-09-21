@@ -41,35 +41,36 @@
             0,
             0,
             0});
-            this.AddressUpDown.Location = new System.Drawing.Point(59, 12);
+            this.AddressUpDown.Location = new System.Drawing.Point(59, 13);
             this.AddressUpDown.Maximum = new decimal(new int[] {
             -1,
             0,
             0,
             0});
             this.AddressUpDown.Name = "AddressUpDown";
-            this.AddressUpDown.Size = new System.Drawing.Size(120, 21);
+            this.AddressUpDown.Size = new System.Drawing.Size(120, 20);
             this.AddressUpDown.TabIndex = 0;
             this.AddressUpDown.ValueChanged += new System.EventHandler(this.AddressUpDown_ValueChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 16);
+            this.label1.Location = new System.Drawing.Point(74, -3);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(41, 12);
+            this.label1.Size = new System.Drawing.Size(66, 13);
             this.label1.TabIndex = 1;
-            this.label1.Text = "首地址";
+            this.label1.Text = "First address";
             // 
             // MemoryBrowser
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(484, 261);
+            this.ClientSize = new System.Drawing.Size(484, 283);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.AddressUpDown);
             this.Name = "MemoryBrowser";
-            this.Text = "浏览内存";
+            this.Text = "Browse memory";
+            this.Load += new System.EventHandler(this.MemoryBrowser_Load);
             this.Resize += new System.EventHandler(this.MemoryBrowser_Resize);
             ((System.ComponentModel.ISupportInitialize)(this.AddressUpDown)).EndInit();
             this.ResumeLayout(false);
