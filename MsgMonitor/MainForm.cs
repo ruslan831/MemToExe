@@ -25,14 +25,14 @@ namespace MsgMoniter
 
     public enum MemoryDataType
     {
-        [Description("字节")] Byte,
-        [Description("短整数")] Short,
-        [Description("整数")] Integer,
-        [Description("浮点数")] Float,
-        [Description("长整数")] Long,
-        [Description("双浮点")] Double,
-        [Description("字符串")] String,
-        [Description("字节数组")] ByteArray,
+        [Description("byte")] Byte,
+        [Description("Short")] Short,
+        [Description("Integer")] Integer,
+        [Description("float")] Float,
+        [Description("long")] Long,
+        [Description("double")] double,
+        [Description("String")] String,
+        [Description("ByteArray")] ByteArray,
     }
 
     public struct WrittenMemoryInfo
@@ -188,20 +188,20 @@ namespace MsgMoniter
         {
             InitializeComponent();
             openFileDialog = new OpenFileDialog();
-            openFileDialog.Filter = "可执行程序(*.exe)|*.exe";
-            openFileDialog.Title = "打开程序";
+            openFileDialog.Filter = "Executable*.exe)|*.exe";
+            openFileDialog.Title = "open";
             openFileDialog.DefaultExt = "exe";
             saveFileDialog = new SaveFileDialog();
-            saveFileDialog.Filter = "可执行程序(*.exe)|*.exe";
-            saveFileDialog.Title = "保存程序";
+            saveFileDialog.Filter = "Executable(*.exe)|*.exe";
+            saveFileDialog.Title = "save";
             saveFileDialog.DefaultExt = "exe";
             openProjectDialog = new OpenFileDialog();
-            openProjectDialog.Filter = "项目文件(*.lvi)|*.lvi";
-            openProjectDialog.Title = "打开项目";
+            openProjectDialog.Filter = "project files(*.lvi)|*.lvi";
+            openProjectDialog.Title = "Open project";
             openProjectDialog.DefaultExt = "lvi";
             saveProjectDialog = new SaveFileDialog();
-            saveProjectDialog.Filter = "项目文件(*.lvi)|*.lvi";
-            saveProjectDialog.Title = "保存项目";
+            saveProjectDialog.Filter = "project files*.lvi)|*.lvi";
+            saveProjectDialog.Title = "Save project";
             saveProjectDialog.DefaultExt = "lvi";
         }
 
@@ -278,25 +278,25 @@ namespace MsgMoniter
             // 
             // ColumnDesc
             // 
-            this.ColumnDesc.Text = "描述信息";
+            this.ColumnDesc.Text = "Description";
             this.ColumnDesc.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.ColumnDesc.Width = 150;
             // 
             // ColumnAddress
             // 
-            this.ColumnAddress.Text = "地址";
+            this.ColumnAddress.Text = "address";
             this.ColumnAddress.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.ColumnAddress.Width = 100;
             // 
             // ColumnValueType
             // 
-            this.ColumnValueType.Text = "类型";
+            this.ColumnValueType.Text = "type";
             this.ColumnValueType.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.ColumnValueType.Width = 100;
             // 
             // ColumnValue
             // 
-            this.ColumnValue.Text = "数值";
+            this.ColumnValue.Text = "1";
             this.ColumnValue.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.ColumnValue.Width = 150;
             // 
