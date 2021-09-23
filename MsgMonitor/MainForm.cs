@@ -450,9 +450,9 @@ namespace MsgMoniter
             this.项目另存为ToolStripMenuItem,
             this.toolStripMenuItemSep1,
             this.退出ToolStripMenuItem});
-            this.文件ToolStripMenuItem.Name = "documentToolStripMenuItem";
+            this.文件ToolStripMenuItem.Name = "FileToolStripMenuItem";
             this.文件ToolStripMenuItem.Size = new System.Drawing.Size(44, 21);
-            this.文件ToolStripMenuItem.Text = "document";
+            this.文件ToolStripMenuItem.Text = "File";
             // 
             // 打开项目ToolStripMenuItem
             // 
@@ -474,7 +474,7 @@ namespace MsgMoniter
             this.附加进程ToolStripMenuItem.Name = "AdditionalprocessToolStripMenuItem";
             this.附加进程ToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F2;
             this.附加进程ToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
-            this.附加进程ToolStripMenuItem.Text = "Additional process";
+            this.附加进程ToolStripMenuItem.Text = "Add process";
             this.附加进程ToolStripMenuItem.Click += new System.EventHandler(this.附加进程ToolStripMenuItem_Click);
             // 
             // 保存项目ToolStripMenuItem
@@ -505,7 +505,7 @@ namespace MsgMoniter
             this.暂停拦截ToolStripMenuItem});
             this.全局设置ToolStripMenuItem.Name = "GlobalSettingsToolStripMenuItem";
             this.全局设置ToolStripMenuItem.Size = new System.Drawing.Size(68, 21);
-            this.全局设置ToolStripMenuItem.Text = "Global Settings";
+            this.全局设置ToolStripMenuItem.Text = "Settings";
             // 
             // 仅显示主模块地址ToolStripMenuItem
             // 
@@ -525,17 +525,17 @@ namespace MsgMoniter
             // 暂停拦截ToolStripMenuItem
             // 
             this.暂停拦截ToolStripMenuItem.CheckOnClick = true;
-            this.暂停拦截ToolStripMenuItem.Name = "PauseinterceptionToolStripMenuItem";
+            this.暂停拦截ToolStripMenuItem.Name = "PauseToolStripMenuItem";
             this.暂停拦截ToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
-            this.暂停拦截ToolStripMenuItem.Text = "Pause interception";
+            this.暂停拦截ToolStripMenuItem.Text = "Pause";
             // 
             // 保存写入ToolStripMenuItem
             // 
             this.保存写入ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.所有勾选的项ToolStripMenuItem});
-            this.保存写入ToolStripMenuItem.Name = "SavewriteToolStripMenuItem";
+            this.保存写入ToolStripMenuItem.Name = "SaveToolStripMenuItem";
             this.保存写入ToolStripMenuItem.Size = new System.Drawing.Size(68, 21);
-            this.保存写入ToolStripMenuItem.Text = "Save write";
+            this.保存写入ToolStripMenuItem.Text = "Save";
             // 
             // 所有勾选的项ToolStripMenuItem
             // 
@@ -557,7 +557,7 @@ namespace MsgMoniter
             // 
             this.使用说明ToolStripMenuItem.Name = "InstructionsforuseToolStripMenuItem";
             this.使用说明ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
-            this.使用说明ToolStripMenuItem.Text = "Instructions for use";
+            this.使用说明ToolStripMenuItem.Text = "Instructions";
             this.使用说明ToolStripMenuItem.Click += new System.EventHandler(this.使用说明ToolStripMenuItem_Click);
             // 
             // 关于ToolStripMenuItem
@@ -607,7 +607,7 @@ namespace MsgMoniter
             // 
             // 项目另存为ToolStripMenuItem
             // 
-            this.项目另存为ToolStripMenuItem.Name = "项目另存为ToolStripMenuItem";
+            this.项目另存为ToolStripMenuItem.Name = "SaveprojectasToolStripMenuItem";
             this.项目另存为ToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
             | System.Windows.Forms.Keys.S)));
             this.项目另存为ToolStripMenuItem.Size = new System.Drawing.Size(214, 22);
