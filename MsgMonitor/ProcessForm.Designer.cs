@@ -66,7 +66,7 @@ namespace MsgMonitor
             // 
             // columnHeader1
             // 
-            this.columnHeader1.Text = "processId";
+            this.columnHeader1.Text = "process Id";
             this.columnHeader1.Width = 80;
             // 
             // columnHeader2
